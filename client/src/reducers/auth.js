@@ -2,7 +2,7 @@
 export const ACTIONS = {
   LOGIN: "login",
   LOGOUT: "logout",
-  LOADING: "loading",
+  // LOADING: "loading",
   CURRENT_USER: "current_user",
 };
 
