@@ -1,8 +1,8 @@
 const development = false;
 export const URL = {
   dev: "http://localhost:5000",
-  prod: "https://human-resource-backend.herokuapp.com",
-  use: development ? "http://localhost:5000" : "https://human-resource-backend.herokuapp.com",
+  prod: "https://bhrms-demo.onrender.com",
+  use: development ? "http://localhost:5000" : "https://bhrms-demo.onrender.com",
 };
 
 export const USER_REQUESTS_TYPE = {
