@@ -43,11 +43,11 @@ const HomePage = () => {
     <>
     <Container>
       <div className="hero">
-        <h3>The Office</h3>
+        <h3>BHRMS</h3>
       </div>
       <Segment>
         <Header as="h3" block>
-          Company Policies and Holidays
+          Policies and Holidays
         </Header>
         <Card.Group>
           {data.map((d) => {
