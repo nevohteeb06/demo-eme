@@ -4,7 +4,6 @@ const fileUpload = require("express-fileupload");
 const cors = require("cors");
 const helmet = require("helmet");
 const app = express();
-require("dotenv").config();
 const PORT = process.env.PORT || 5000;
 const MyGraphQLSchema = require("./graphql");
 const { graphqlHTTP } = require("express-graphql");
@@ -41,7 +40,6 @@ app.use(
 app.set("trust proxy", 1);
 app.use(cookieParser());
 
-
 // api routes
 app.use(
   "/graphql",
@@ -54,7 +52,7 @@ app.use(
 app.use("/api", apiRoutes);
 
 app.get("/", (req, res) => {
-  res.send("hello world from HR management App Backend");
+  res.send("BHRMS");
 });
 
 app.listen(PORT, () => console.log(`Server started at ${PORT}`));
